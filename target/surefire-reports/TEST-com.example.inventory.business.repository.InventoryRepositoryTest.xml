@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.inventory.business.repository.InventoryRepositoryTest" time="20.972" tests="16" errors="16" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.inventory.business.repository.InventoryRepositoryTest" time="15.584" tests="16" errors="16" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="JP"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\ProgramData\Jenkins\.jenkins\tools\hudson.model.JDK\JDK_8_Update_131\jre\bin"/>
-    <property name="sun.java.command" value="C:\Windows\Temp\surefire6168084088188415957\surefirebooter-20221014153944911_3.jar C:\Windows\Temp\surefire6168084088188415957 2022-10-14T15-39-40_339-jvmRun1 surefire-20221014153944911_1tmp surefire_0-20221014153944911_2tmp"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire3378443680254394292\surefirebooter-20221014164049774_3.jar C:\Windows\Temp\surefire3378443680254394292 2022-10-14T16-40-42_584-jvmRun1 surefire-20221014164049774_1tmp surefire_0-20221014164049774_2tmp"/>
     <property name="surefire.test.class.path" value="C:\17.Web.Warehouse\target\test-classes;C:\17.Web.Warehouse\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mybatis\spring\boot\mybatis-spring-boot-starter\1.3.2\mybatis-spring-boot-starter-1.3.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\boot\spring-boot-starter\2.2.3.RELEASE\spring-boot-starter-2.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.2.3.RELEASE\spring-boot-starter-logging-2.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.12.1\log4j-to-slf4j-2.12.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\jul-to-slf4j\1.7.30\jul-to-slf4j-1.7.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\jakarta\annotation\jakarta.annotation-api\1.3.5\jakarta.annotation-api-1.3.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.2.3.RELEASE\spring-boot-starter-jdbc-2.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\zaxxer\HikariCP\3.4.2\HikariCP-3.4.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\spring-jdbc\5.2.3.RELEASE\spring-jdbc-5.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\spring-tx\5.2.3.RELEASE\spring-tx-5.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mybatis\spring\boot\mybatis-spring-boot-autoconfigure\1.3.2\mybatis-spring-boot-autoconfigure-1.3.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mybatis\mybatis\3.4.6\mybatis-3.4.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mybatis\mybatis-spring\1.3.2\mybatis-spring-1.3.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.2.3.RELEASE\spring-boot-starter-aop-2.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\spring-aop\5.2.3.RELEASE\spring-aop-5.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\spring-beans\5.2.3.RELEASE\spring-beans-5.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\aspectj\aspectjweaver\1.9.5\aspectjweaver-1.9.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\2.2.3.RELEASE\spring-boot-starter-thymeleaf-2.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\thymeleaf\thymeleaf-spring5\3.0.11.RELEASE\thymeleaf-spring5-3.0.11.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\thymeleaf\thymeleaf\3.0.11.RELEASE\thymeleaf-3.0.11.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-java8time\3.0.4.RELEASE\thymeleaf-extras-java8time-3.0.4.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\boot\spring-boot-starter-validation\2.2.3.RELEASE\spring-boot-starter-validation-2.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\jakarta\validation\jakarta.validation-api\2.0.2\jakarta.validation-api-2.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.30\tomcat-embed-el-9.0.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.18.Final\hibernate-validator-6.0.18.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.2.3.RELEASE\spring-boot-starter-web-2.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.2.3.RELEASE\spring-boot-starter-json-2.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.2\jackson-databind-2.10.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.2\jackson-annotations-2.10.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.2\jackson-core-2.10.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.10.2\jackson-datatype-jdk8-2.10.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.2\jackson-datatype-jsr310-2.10.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.10.2\jackson-module-parameter-names-2.10.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.2.3.RELEASE\spring-boot-starter-tomcat-2.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.30\tomcat-embed-core-9.0.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.30\tomcat-embed-websocket-9.0.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\spring-web\5.2.3.RELEASE\spring-web-5.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\spring-webmvc\5.2.3.RELEASE\spring-webmvc-5.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\spring-context\5.2.3.RELEASE\spring-context-5.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\spring-expression\5.2.3.RELEASE\spring-expression-5.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\projectlombok\lombok\1.18.10\lombok-1.18.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\14.0\guava-14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.2.3.RELEASE\spring-boot-starter-test-2.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\boot\spring-boot-test\2.2.3.RELEASE\spring-boot-test-2.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.2.3.RELEASE\spring-boot-test-autoconfigure-2.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\junit\jupiter\junit-jupiter\5.5.2\junit-jupiter-5.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.2\junit-jupiter-api-5.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\junit\platform\junit-platform-commons\1.5.2\junit-platform-commons-1.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.5.2\junit-jupiter-params-5.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.2\junit-jupiter-engine-5.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\junit\vintage\junit-vintage-engine\5.5.2\junit-vintage-engine-5.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\junit\platform\junit-platform-engine\1.5.2\junit-platform-engine-1.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mockito\mockito-junit-jupiter\3.1.0\mockito-junit-jupiter-3.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\assertj\assertj-core\3.13.2\assertj-core-3.13.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mockito\mockito-core\3.1.0\mockito-core-3.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.10.6\byte-buddy-1.10.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.6\byte-buddy-agent-1.10.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\spring-core\5.2.3.RELEASE\spring-core-5.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\spring-jcl\5.2.3.RELEASE\spring-jcl-5.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\spring-test\5.2.3.RELEASE\spring-test-5.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\xmlunit\xmlunit-core\2.6.3\xmlunit-core-2.6.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\springtestdbunit\spring-test-dbunit\1.3.0\spring-test-dbunit-1.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\dbunit\dbunit\2.5.4\dbunit-2.5.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.14\poi-ooxml-3.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.14\poi-3.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.14\poi-ooxml-schemas-3.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.03\curvesapi-1.03.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\boot\spring-boot-devtools\2.2.3.RELEASE\spring-boot-devtools-2.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\boot\spring-boot\2.2.3.RELEASE\spring-boot-2.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.2.3.RELEASE\spring-boot-autoconfigure-2.2.3.RELEASE.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\mysql\mysql-connector-java\8.0.19\mysql-connector-java-8.0.19.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.3\log4j-api-2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-core\2.3\log4j-core-2.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\2.1\hamcrest-core-2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\easymock\easymock\3.4\easymock-3.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\objenesis\objenesis\2.2\objenesis-2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\junit\platform\junit-platform-runner\1.2.0\junit-platform-runner-1.2.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\junit\platform\junit-platform-launcher\1.5.2\junit-platform-launcher-1.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\junit\platform\junit-platform-suite-api\1.5.2\junit-platform-suite-api-1.5.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire6168084088188415957\surefirebooter-20221014153944911_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire3378443680254394292\surefirebooter-20221014164049774_3.jar"/>
     <property name="sun.boot.class.path" value="C:\ProgramData\Jenkins\.jenkins\tools\hudson.model.JDK\JDK_8_Update_131\jre\lib\resources.jar;C:\ProgramData\Jenkins\.jenkins\tools\hudson.model.JDK\JDK_8_Update_131\jre\lib\rt.jar;C:\ProgramData\Jenkins\.jenkins\tools\hudson.model.JDK\JDK_8_Update_131\jre\lib\sunrsasign.jar;C:\ProgramData\Jenkins\.jenkins\tools\hudson.model.JDK\JDK_8_Update_131\jre\lib\jsse.jar;C:\ProgramData\Jenkins\.jenkins\tools\hudson.model.JDK\JDK_8_Update_131\jre\lib\jce.jar;C:\ProgramData\Jenkins\.jenkins\tools\hudson.model.JDK\JDK_8_Update_131\jre\lib\charsets.jar;C:\ProgramData\Jenkins\.jenkins\tools\hudson.model.JDK\JDK_8_Update_131\jre\lib\jfr.jar;C:\ProgramData\Jenkins\.jenkins\tools\hudson.model.JDK\JDK_8_Update_131\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -52,7 +52,7 @@
     <property name="user.dir" value="C:\17.Web.Warehouse"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="8600"/>
+    <property name="PID" value="9096"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.library.path" value="C:\ProgramData\Jenkins\.jenkins\tools\hudson.model.JDK\JDK_8_Update_131\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven3.5.0/bin;C:\ProgramData\Jenkins\.jenkins\tools\hudson.model.JDK\JDK_8_Update_131/bin;C:\ProgramData\Jenkins\.jenkins\tools\hudson.model.JDK\JDK_8_Update_131/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\MySQL\MySQL Server 5.7\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
@@ -121,11 +121,11 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
 	... 43 more
 ]]></error>
-    <system-out><![CDATA[2022-10-14 15:40:51.143  INFO 8600 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.inventory.business.repository.InventoryRepositoryTest], using SpringBootContextLoader
-2022-10-14 15:40:51.152  INFO 8600 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.inventory.business.repository.InventoryRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2022-10-14 15:40:51.152  INFO 8600 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.inventory.business.repository.InventoryRepositoryTest]: InventoryRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2022-10-14 15:40:51.357  INFO 8600 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.Application for test class com.example.inventory.business.repository.InventoryRepositoryTest
-2022-10-14 15:40:51.357  INFO 8600 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2e9f5499, org.springframework.test.context.support.DirtiesContextTestExecutionListener@30f54522, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5af47414, com.github.springtestdbunit.DbUnitTestExecutionListener@43e9a8a2]
+    <system-out><![CDATA[2022-10-14 16:42:16.780  INFO 9096 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.inventory.business.repository.InventoryRepositoryTest], using SpringBootContextLoader
+2022-10-14 16:42:16.782  INFO 9096 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.inventory.business.repository.InventoryRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2022-10-14 16:42:16.782  INFO 9096 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.inventory.business.repository.InventoryRepositoryTest]: InventoryRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2022-10-14 16:42:16.842  INFO 9096 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.Application for test class com.example.inventory.business.repository.InventoryRepositoryTest
+2022-10-14 16:42:16.844  INFO 9096 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bf4b018, org.springframework.test.context.support.DirtiesContextTestExecutionListener@d8cece4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@55d98bbb, com.github.springtestdbunit.DbUnitTestExecutionListener@2e9f5499]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -135,13 +135,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.3.RELEASE)
 
-2022-10-14 15:40:51.808  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 8600 (started by HLP03-134$ in C:\17.Web.Warehouse)
-2022-10-14 15:40:51.808  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
-2022-10-14 15:40:53.178  WARN 8600 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
-2022-10-14 15:40:53.183  INFO 8600 --- [           main] ConditionEvaluationReportLoggingListener : 
+2022-10-14 16:42:16.959  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 9096 (started by HLP03-134$ in C:\17.Web.Warehouse)
+2022-10-14 16:42:16.960  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
+2022-10-14 16:42:19.610  WARN 9096 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+2022-10-14 16:42:19.614  INFO 9096 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-10-14 15:40:53.187 ERROR 8600 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2022-10-14 16:42:19.616 ERROR 9096 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -197,7 +197,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
 	... 43 common frames omitted
 
-2022-10-14 15:40:53.189 ERROR 8600 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2e9f5499] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@2b33f7a0]
+2022-10-14 16:42:19.618 ERROR 9096 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bf4b018] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@3b9c386d]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -258,7 +258,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteStock_異常系_削除済みの商品コード" classname="com.example.inventory.business.repository.InventoryRepositoryTest" time="0">
+  <testcase name="testDeleteStock_異常系_削除済みの商品コード" classname="com.example.inventory.business.repository.InventoryRepositoryTest" time="0.001">
     <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
@@ -325,13 +325,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.3.RELEASE)
 
-2022-10-14 15:40:53.280  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 8600 (started by HLP03-134$ in C:\17.Web.Warehouse)
-2022-10-14 15:40:53.283  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
-2022-10-14 15:40:54.443  WARN 8600 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
-2022-10-14 15:40:54.446  INFO 8600 --- [           main] ConditionEvaluationReportLoggingListener : 
+2022-10-14 16:42:19.807  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 9096 (started by HLP03-134$ in C:\17.Web.Warehouse)
+2022-10-14 16:42:19.808  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
+2022-10-14 16:42:20.493  WARN 9096 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+2022-10-14 16:42:20.496  INFO 9096 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-10-14 15:40:54.453 ERROR 8600 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2022-10-14 16:42:20.498 ERROR 9096 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -387,7 +387,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
 	... 43 common frames omitted
 
-2022-10-14 15:40:54.455 ERROR 8600 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2e9f5499] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@7cd2d3b6]
+2022-10-14 16:42:20.500 ERROR 9096 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bf4b018] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@375682a5]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -515,13 +515,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.3.RELEASE)
 
-2022-10-14 15:40:54.662  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 8600 (started by HLP03-134$ in C:\17.Web.Warehouse)
-2022-10-14 15:40:54.662  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
-2022-10-14 15:40:56.085  WARN 8600 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
-2022-10-14 15:40:56.085  INFO 8600 --- [           main] ConditionEvaluationReportLoggingListener : 
+2022-10-14 16:42:20.576  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 9096 (started by HLP03-134$ in C:\17.Web.Warehouse)
+2022-10-14 16:42:20.576  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
+2022-10-14 16:42:21.364  WARN 9096 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+2022-10-14 16:42:21.367  INFO 9096 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-10-14 15:40:56.085 ERROR 8600 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2022-10-14 16:42:21.370 ERROR 9096 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -577,7 +577,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
 	... 43 common frames omitted
 
-2022-10-14 15:40:56.092 ERROR 8600 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2e9f5499] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@54519d74]
+2022-10-14 16:42:21.390 ERROR 9096 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bf4b018] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@6c54d0dc]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -705,13 +705,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.3.RELEASE)
 
-2022-10-14 15:40:56.225  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 8600 (started by HLP03-134$ in C:\17.Web.Warehouse)
-2022-10-14 15:40:56.225  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
-2022-10-14 15:40:57.160  WARN 8600 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
-2022-10-14 15:40:57.162  INFO 8600 --- [           main] ConditionEvaluationReportLoggingListener : 
+2022-10-14 16:42:21.494  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 9096 (started by HLP03-134$ in C:\17.Web.Warehouse)
+2022-10-14 16:42:21.494  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
+2022-10-14 16:42:22.495  WARN 9096 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+2022-10-14 16:42:22.499  INFO 9096 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-10-14 15:40:57.169 ERROR 8600 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2022-10-14 16:42:22.500 ERROR 9096 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -767,7 +767,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
 	... 43 common frames omitted
 
-2022-10-14 15:40:57.173 ERROR 8600 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2e9f5499] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@674b9b85]
+2022-10-14 16:42:22.550 ERROR 9096 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bf4b018] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@a703934]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -895,13 +895,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.3.RELEASE)
 
-2022-10-14 15:40:57.645  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 8600 (started by HLP03-134$ in C:\17.Web.Warehouse)
-2022-10-14 15:40:57.647  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
-2022-10-14 15:40:58.730  WARN 8600 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
-2022-10-14 15:40:58.743  INFO 8600 --- [           main] ConditionEvaluationReportLoggingListener : 
+2022-10-14 16:42:22.810  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 9096 (started by HLP03-134$ in C:\17.Web.Warehouse)
+2022-10-14 16:42:22.810  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
+2022-10-14 16:42:23.576  WARN 9096 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+2022-10-14 16:42:23.579  INFO 9096 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-10-14 15:40:58.743 ERROR 8600 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2022-10-14 16:42:23.581 ERROR 9096 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -957,7 +957,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
 	... 43 common frames omitted
 
-2022-10-14 15:40:58.743 ERROR 8600 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2e9f5499] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@5713e35f]
+2022-10-14 16:42:23.582 ERROR 9096 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bf4b018] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@4f50e974]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -1085,13 +1085,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.3.RELEASE)
 
-2022-10-14 15:40:58.877  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 8600 (started by HLP03-134$ in C:\17.Web.Warehouse)
-2022-10-14 15:40:58.877  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
-2022-10-14 15:40:59.652  WARN 8600 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
-2022-10-14 15:40:59.661  INFO 8600 --- [           main] ConditionEvaluationReportLoggingListener : 
+2022-10-14 16:42:23.644  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 9096 (started by HLP03-134$ in C:\17.Web.Warehouse)
+2022-10-14 16:42:23.644  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
+2022-10-14 16:42:24.291  WARN 9096 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+2022-10-14 16:42:24.294  INFO 9096 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-10-14 15:40:59.666 ERROR 8600 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2022-10-14 16:42:24.296 ERROR 9096 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -1147,7 +1147,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
 	... 43 common frames omitted
 
-2022-10-14 15:40:59.668 ERROR 8600 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2e9f5499] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@1c12f0f4]
+2022-10-14 16:42:24.297 ERROR 9096 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bf4b018] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@618d2191]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -1275,13 +1275,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.3.RELEASE)
 
-2022-10-14 15:40:59.873  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 8600 (started by HLP03-134$ in C:\17.Web.Warehouse)
-2022-10-14 15:40:59.873  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
-2022-10-14 15:41:01.443  WARN 8600 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
-2022-10-14 15:41:01.453  INFO 8600 --- [           main] ConditionEvaluationReportLoggingListener : 
+2022-10-14 16:42:24.355  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 9096 (started by HLP03-134$ in C:\17.Web.Warehouse)
+2022-10-14 16:42:24.356  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
+2022-10-14 16:42:25.261  WARN 9096 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+2022-10-14 16:42:25.266  INFO 9096 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-10-14 15:41:01.453 ERROR 8600 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2022-10-14 16:42:25.268 ERROR 9096 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -1337,7 +1337,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
 	... 43 common frames omitted
 
-2022-10-14 15:41:01.453 ERROR 8600 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2e9f5499] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@697797e4]
+2022-10-14 16:42:25.272 ERROR 9096 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bf4b018] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@3d7d920b]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -1398,7 +1398,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateStock_正常系" classname="com.example.inventory.business.repository.InventoryRepositoryTest" time="0">
+  <testcase name="testCreateStock_正常系" classname="com.example.inventory.business.repository.InventoryRepositoryTest" time="0.014">
     <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
@@ -1465,13 +1465,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.3.RELEASE)
 
-2022-10-14 15:41:01.514  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 8600 (started by HLP03-134$ in C:\17.Web.Warehouse)
-2022-10-14 15:41:01.514  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
-2022-10-14 15:41:02.345  WARN 8600 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
-2022-10-14 15:41:02.355  INFO 8600 --- [           main] ConditionEvaluationReportLoggingListener : 
+2022-10-14 16:42:25.324  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 9096 (started by HLP03-134$ in C:\17.Web.Warehouse)
+2022-10-14 16:42:25.325  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
+2022-10-14 16:42:25.920  WARN 9096 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+2022-10-14 16:42:25.924  INFO 9096 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-10-14 15:41:02.355 ERROR 8600 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2022-10-14 16:42:25.926 ERROR 9096 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -1527,7 +1527,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
 	... 43 common frames omitted
 
-2022-10-14 15:41:02.355 ERROR 8600 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2e9f5499] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@3cc9bde9]
+2022-10-14 16:42:25.927 ERROR 9096 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bf4b018] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@322f6283]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -1655,13 +1655,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.3.RELEASE)
 
-2022-10-14 15:41:02.690  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 8600 (started by HLP03-134$ in C:\17.Web.Warehouse)
-2022-10-14 15:41:02.695  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
-2022-10-14 15:41:03.892  WARN 8600 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
-2022-10-14 15:41:03.892  INFO 8600 --- [           main] ConditionEvaluationReportLoggingListener : 
+2022-10-14 16:42:26.033  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 9096 (started by HLP03-134$ in C:\17.Web.Warehouse)
+2022-10-14 16:42:26.033  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
+2022-10-14 16:42:26.809  WARN 9096 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+2022-10-14 16:42:26.812  INFO 9096 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-10-14 15:41:03.892 ERROR 8600 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2022-10-14 16:42:26.813 ERROR 9096 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -1717,7 +1717,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
 	... 43 common frames omitted
 
-2022-10-14 15:41:03.902 ERROR 8600 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2e9f5499] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@55fbebba]
+2022-10-14 16:42:26.815 ERROR 9096 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bf4b018] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@42c7781a]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -1845,13 +1845,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.3.RELEASE)
 
-2022-10-14 15:41:03.952  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 8600 (started by HLP03-134$ in C:\17.Web.Warehouse)
-2022-10-14 15:41:03.952  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
-2022-10-14 15:41:05.194  WARN 8600 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
-2022-10-14 15:41:05.205  INFO 8600 --- [           main] ConditionEvaluationReportLoggingListener : 
+2022-10-14 16:42:27.114  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 9096 (started by HLP03-134$ in C:\17.Web.Warehouse)
+2022-10-14 16:42:27.114  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
+2022-10-14 16:42:27.961  WARN 9096 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+2022-10-14 16:42:27.975  INFO 9096 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-10-14 15:41:05.205 ERROR 8600 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2022-10-14 16:42:27.978 ERROR 9096 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -1907,7 +1907,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
 	... 43 common frames omitted
 
-2022-10-14 15:41:05.213 ERROR 8600 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2e9f5499] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@59b5251d]
+2022-10-14 16:42:27.979 ERROR 9096 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bf4b018] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@297c0311]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -1968,7 +1968,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 
 ]]></system-out>
   </testcase>
-  <testcase name="testFindStock_異常系_削除済みの商品コード" classname="com.example.inventory.business.repository.InventoryRepositoryTest" time="0.001">
+  <testcase name="testFindStock_異常系_削除済みの商品コード" classname="com.example.inventory.business.repository.InventoryRepositoryTest" time="0">
     <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
@@ -2035,13 +2035,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.3.RELEASE)
 
-2022-10-14 15:41:05.307  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 8600 (started by HLP03-134$ in C:\17.Web.Warehouse)
-2022-10-14 15:41:05.307  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
-2022-10-14 15:41:06.062  WARN 8600 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
-2022-10-14 15:41:06.072  INFO 8600 --- [           main] ConditionEvaluationReportLoggingListener : 
+2022-10-14 16:42:28.164  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 9096 (started by HLP03-134$ in C:\17.Web.Warehouse)
+2022-10-14 16:42:28.164  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
+2022-10-14 16:42:29.175  WARN 9096 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+2022-10-14 16:42:29.179  INFO 9096 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-10-14 15:41:06.077 ERROR 8600 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2022-10-14 16:42:29.181 ERROR 9096 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -2097,7 +2097,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
 	... 43 common frames omitted
 
-2022-10-14 15:41:06.079 ERROR 8600 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2e9f5499] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@4dcdc172]
+2022-10-14 16:42:29.182 ERROR 9096 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bf4b018] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@523cc8b4]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -2158,7 +2158,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteStock_異常系_在庫テーブルに存在しない商品コード" classname="com.example.inventory.business.repository.InventoryRepositoryTest" time="0.002">
+  <testcase name="testDeleteStock_異常系_在庫テーブルに存在しない商品コード" classname="com.example.inventory.business.repository.InventoryRepositoryTest" time="0">
     <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
@@ -2225,13 +2225,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.3.RELEASE)
 
-2022-10-14 15:41:06.279  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 8600 (started by HLP03-134$ in C:\17.Web.Warehouse)
-2022-10-14 15:41:06.279  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
-2022-10-14 15:41:07.714  WARN 8600 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
-2022-10-14 15:41:07.725  INFO 8600 --- [           main] ConditionEvaluationReportLoggingListener : 
+2022-10-14 16:42:29.251  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 9096 (started by HLP03-134$ in C:\17.Web.Warehouse)
+2022-10-14 16:42:29.251  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
+2022-10-14 16:42:30.130  WARN 9096 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+2022-10-14 16:42:30.168  INFO 9096 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-10-14 15:41:07.726 ERROR 8600 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2022-10-14 16:42:30.171 ERROR 9096 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -2287,7 +2287,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
 	... 43 common frames omitted
 
-2022-10-14 15:41:07.728 ERROR 8600 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2e9f5499] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@2fad48b7]
+2022-10-14 16:42:30.173 ERROR 9096 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bf4b018] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@47d7792e]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -2348,7 +2348,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 
 ]]></system-out>
   </testcase>
-  <testcase name="testFindAllStock_正常系" classname="com.example.inventory.business.repository.InventoryRepositoryTest" time="0">
+  <testcase name="testFindAllStock_正常系" classname="com.example.inventory.business.repository.InventoryRepositoryTest" time="0.001">
     <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
@@ -2415,13 +2415,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.3.RELEASE)
 
-2022-10-14 15:41:08.022  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 8600 (started by HLP03-134$ in C:\17.Web.Warehouse)
-2022-10-14 15:41:08.022  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
-2022-10-14 15:41:09.528  WARN 8600 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
-2022-10-14 15:41:09.528  INFO 8600 --- [           main] ConditionEvaluationReportLoggingListener : 
+2022-10-14 16:42:30.582  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 9096 (started by HLP03-134$ in C:\17.Web.Warehouse)
+2022-10-14 16:42:30.582  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
+2022-10-14 16:42:31.380  WARN 9096 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+2022-10-14 16:42:31.383  INFO 9096 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-10-14 15:41:09.543 ERROR 8600 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2022-10-14 16:42:31.385 ERROR 9096 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -2477,7 +2477,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
 	... 43 common frames omitted
 
-2022-10-14 15:41:09.544 ERROR 8600 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2e9f5499] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@70916715]
+2022-10-14 16:42:31.388 ERROR 9096 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bf4b018] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@6e7d874c]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -2538,7 +2538,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 
 ]]></system-out>
   </testcase>
-  <testcase name="testUpdateStock_異常系_削除済みの商品コード" classname="com.example.inventory.business.repository.InventoryRepositoryTest" time="0">
+  <testcase name="testUpdateStock_異常系_削除済みの商品コード" classname="com.example.inventory.business.repository.InventoryRepositoryTest" time="0.001">
     <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
@@ -2605,13 +2605,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.3.RELEASE)
 
-2022-10-14 15:41:09.869  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 8600 (started by HLP03-134$ in C:\17.Web.Warehouse)
-2022-10-14 15:41:09.869  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
-2022-10-14 15:41:11.261  WARN 8600 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
-2022-10-14 15:41:11.269  INFO 8600 --- [           main] ConditionEvaluationReportLoggingListener : 
+2022-10-14 16:42:31.792  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 9096 (started by HLP03-134$ in C:\17.Web.Warehouse)
+2022-10-14 16:42:31.793  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
+2022-10-14 16:42:32.846  WARN 9096 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+2022-10-14 16:42:32.849  INFO 9096 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-10-14 15:41:11.271 ERROR 8600 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2022-10-14 16:42:32.851 ERROR 9096 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -2667,7 +2667,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
 	... 43 common frames omitted
 
-2022-10-14 15:41:11.271 ERROR 8600 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2e9f5499] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@48d44acf]
+2022-10-14 16:42:32.855 ERROR 9096 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bf4b018] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@fbcc62a]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -2795,13 +2795,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.3.RELEASE)
 
-2022-10-14 15:41:11.324  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 8600 (started by HLP03-134$ in C:\17.Web.Warehouse)
-2022-10-14 15:41:11.325  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
-2022-10-14 15:41:12.450  WARN 8600 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
-2022-10-14 15:41:12.458  INFO 8600 --- [           main] ConditionEvaluationReportLoggingListener : 
+2022-10-14 16:42:32.930  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 9096 (started by HLP03-134$ in C:\17.Web.Warehouse)
+2022-10-14 16:42:32.930  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
+2022-10-14 16:42:33.677  WARN 9096 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+2022-10-14 16:42:33.681  INFO 9096 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-10-14 15:41:12.460 ERROR 8600 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2022-10-14 16:42:33.683 ERROR 9096 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -2857,7 +2857,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
 	... 43 common frames omitted
 
-2022-10-14 15:41:12.460 ERROR 8600 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2e9f5499] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@9a3d0f4]
+2022-10-14 16:42:33.689 ERROR 9096 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bf4b018] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@7080e8fc]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -2918,7 +2918,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 
 ]]></system-out>
   </testcase>
-  <testcase name="testFindStock_異常系_存在しない商品コード" classname="com.example.inventory.business.repository.InventoryRepositoryTest" time="0">
+  <testcase name="testFindStock_異常系_存在しない商品コード" classname="com.example.inventory.business.repository.InventoryRepositoryTest" time="0.002">
     <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException"><![CDATA[java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
@@ -2985,13 +2985,13 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::        (v2.2.3.RELEASE)
 
-2022-10-14 15:41:12.543  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 8600 (started by HLP03-134$ in C:\17.Web.Warehouse)
-2022-10-14 15:41:12.543  INFO 8600 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
-2022-10-14 15:41:13.334  WARN 8600 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
-2022-10-14 15:41:13.337  INFO 8600 --- [           main] ConditionEvaluationReportLoggingListener : 
+2022-10-14 16:42:33.744  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : Starting InventoryRepositoryTest on HLP03-134 with PID 9096 (started by HLP03-134$ in C:\17.Web.Warehouse)
+2022-10-14 16:42:33.744  INFO 9096 --- [           main] c.e.i.b.r.InventoryRepositoryTest        : No active profile set, falling back to default profiles: default
+2022-10-14 16:42:34.459  WARN 9096 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
+2022-10-14 16:42:34.462  INFO 9096 --- [           main] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-10-14 15:41:13.339 ERROR 8600 --- [           main] o.s.boot.SpringApplication               : Application run failed
+2022-10-14 16:42:34.464 ERROR 9096 --- [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'goodsCreateController' defined in file [C:\17.Web.Warehouse\target\classes\com\example\goods\web\controller\GoodsCreateController.class]: Instantiation of bean failed; nested exception is java.lang.NoClassDefFoundError: Could not initialize class com.example.goods.web.controller.GoodsCreateController
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
@@ -3047,7 +3047,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
 	... 43 common frames omitted
 
-2022-10-14 15:41:13.341 ERROR 8600 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@2e9f5499] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@55704859]
+2022-10-14 16:42:34.465 ERROR 9096 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3bf4b018] to prepare test instance [com.example.inventory.business.repository.InventoryRepositoryTest@400c0d26]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.2.3.RELEASE.jar:5.2.3.RELEASE]

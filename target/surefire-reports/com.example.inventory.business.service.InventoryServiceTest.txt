@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.example.inventory.business.service.InventoryServiceTest
 -------------------------------------------------------------------------------
-Tests run: 21, Failures: 0, Errors: 21, Skipped: 0, Time elapsed: 29.608 s <<< FAILURE! - in com.example.inventory.business.service.InventoryServiceTest
-com.example.inventory.business.service.InventoryServiceTest.testCreateStock_異常系_登録済みの商品コード  Time elapsed: 0 s  <<< ERROR!
+Tests run: 21, Failures: 0, Errors: 21, Skipped: 0, Time elapsed: 22.518 s <<< FAILURE! - in com.example.inventory.business.service.InventoryServiceTest
+com.example.inventory.business.service.InventoryServiceTest.testCreateStock_異常系_登録済みの商品コード  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
@@ -60,7 +60,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
 	... 43 more
 
-com.example.inventory.business.service.InventoryServiceTest.testDeleteStock_異常系_削除済みの商品コード  Time elapsed: 0 s  <<< ERROR!
+com.example.inventory.business.service.InventoryServiceTest.testDeleteStock_異常系_削除済みの商品コード  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
@@ -176,7 +176,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
 	... 43 more
 
-com.example.inventory.business.service.InventoryServiceTest.testCanDeleteStock_異常系_在庫テーブルに存在しない商品コード  Time elapsed: 0.058 s  <<< ERROR!
+com.example.inventory.business.service.InventoryServiceTest.testCanDeleteStock_異常系_在庫テーブルに存在しない商品コード  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
@@ -292,7 +292,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
 	... 43 more
 
-com.example.inventory.business.service.InventoryServiceTest.testCanDeleteStock_異常系_在庫数が0でない商品コード  Time elapsed: 0 s  <<< ERROR!
+com.example.inventory.business.service.InventoryServiceTest.testCanDeleteStock_異常系_在庫数が0でない商品コード  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
@@ -408,7 +408,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
 	... 43 more
 
-com.example.inventory.business.service.InventoryServiceTest.testFindStock_正常系  Time elapsed: 0 s  <<< ERROR!
+com.example.inventory.business.service.InventoryServiceTest.testFindStock_正常系  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
@@ -524,7 +524,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
 	... 43 more
 
-com.example.inventory.business.service.InventoryServiceTest.testDeleteStock_異常系_存在しない商品コード  Time elapsed: 0.018 s  <<< ERROR!
+com.example.inventory.business.service.InventoryServiceTest.testDeleteStock_異常系_存在しない商品コード  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
@@ -582,7 +582,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
 	... 43 more
 
-com.example.inventory.business.service.InventoryServiceTest.testCreateStock_正常系  Time elapsed: 0 s  <<< ERROR!
+com.example.inventory.business.service.InventoryServiceTest.testCreateStock_正常系  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
@@ -756,7 +756,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
 	... 43 more
 
-com.example.inventory.business.service.InventoryServiceTest.testReceiveStock_正常系  Time elapsed: 0 s  <<< ERROR!
+com.example.inventory.business.service.InventoryServiceTest.testReceiveStock_正常系  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
@@ -988,7 +988,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
 	... 43 more
 
-com.example.inventory.business.service.InventoryServiceTest.testCanCreateStock_異常系_商品テーブルに存在しない商品コード  Time elapsed: 0.001 s  <<< ERROR!
+com.example.inventory.business.service.InventoryServiceTest.testCanCreateStock_異常系_商品テーブルに存在しない商品コード  Time elapsed: 0 s  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
@@ -1046,7 +1046,7 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class com.exampl
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
 	... 43 more
 
-com.example.inventory.business.service.InventoryServiceTest.testCanDeleteStock_正常系  Time elapsed: 0 s  <<< ERROR!
+com.example.inventory.business.service.InventoryServiceTest.testCanDeleteStock_正常系  Time elapsed: 0.001 s  <<< ERROR!
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
