@@ -33,10 +33,10 @@ public class GoodsCreateController {
 		return "redirect:input";
 	}
 
-	@GetMapping("/input")
+	/*@GetMapping("/input")
 	public String input(Goods goods) {
 		return "goods/goods_create_input";
-	}
+	}*/
 
 	@PostMapping("/confirm")
 	public String confirm(@Validated Goods goods, Errors errors)
@@ -59,7 +59,7 @@ public class GoodsCreateController {
 	}
 
 	@GetMapping("/complete")
-	public String complete( ) {
+	public String complete() {
 		return "goods/goods_create_complete";
 	}
 
