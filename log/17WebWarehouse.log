@@ -1,1 +1,4 @@
-2022/10/14 17:23:33.040 [INFO  ][background-preinit] org.hibernate.validator.internal.util.Version.<clinit> :HV000001: Hibernate Validator 6.0.18.Final
+2022/10/17 12:26:22.746 [INFO  ][background-preinit] org.hibernate.validator.internal.util.Version.<clinit> :HV000001: Hibernate Validator 6.1.7.Final
+2022/10/17 12:29:52.372 [INFO  ][http-nio-8080-exec-1] com.example.inventory.web.controller.StockListController.showList :[Stock(goodsCode=100, quantity=100), Stock(goodsCode=200, quantity=5), Stock(goodsCode=400, quantity=20), Stock(goodsCode=700, quantity=0)]
+2022/10/17 12:29:56.446 [INFO  ][http-nio-8080-exec-1] com.example.inventory.web.controller.StockListController.showList :[Stock(goodsCode=100, quantity=100), Stock(goodsCode=200, quantity=5), Stock(goodsCode=400, quantity=20), Stock(goodsCode=700, quantity=0)]
+2022/10/17 12:30:03.742 [INFO  ][http-nio-8080-exec-4] com.example.inventory.web.controller.StockFindController.complete :GoodsCode(code=100)

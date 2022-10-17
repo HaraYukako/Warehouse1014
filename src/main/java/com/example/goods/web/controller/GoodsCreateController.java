@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.validation.Errors;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.SessionAttributes;
@@ -32,10 +33,10 @@ public class GoodsCreateController {
 		return "redirect:input";
 	}
 
-	/*@GetMapping("/input")
+	@GetMapping("/input")
 	public String input(Goods goods) {
 		return "goods/goods_create_input";
-	}*/
+	}
 
 	@PostMapping("/confirm")
 	public String confirm(@Validated Goods goods, Errors errors)
@@ -57,10 +58,10 @@ public class GoodsCreateController {
 		return "redirect:complete";
 	}
 
-	/*@GetMapping("/complete")
+	@GetMapping("/complete")
 	public String complete() {
 		return "goods/goods_create_complete";
-	}*/
+	}
 
 	@ExceptionHandler(GoodsCodeDupulicateException.class)
 	public String handleGoodsCodeDupulicateException(
