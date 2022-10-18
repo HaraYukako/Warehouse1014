@@ -1,7 +1,6 @@
 package com.example.goods.web.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.Errors;
 import org.springframework.validation.annotation.Validated;
@@ -20,7 +19,6 @@ import com.example.goods.business.service.GoodsService;
 
 import lombok.extern.log4j.Log4j2;
 
-@Component
 @Controller
 @RequestMapping("/goods/create")
 @SessionAttributes("goods")
