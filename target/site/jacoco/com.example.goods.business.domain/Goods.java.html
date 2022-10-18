@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ja"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Goods.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Warehouse</a> &gt; <a href="index.source.html" class="el_package">com.example.goods.business.domain</a> &gt; <span class="el_source">Goods.java</span></div><h1>Goods.java</h1><pre class="source lang-java linenums">package com.example.goods.business.domain;
+
+import static com.example.common.constant.RuleConstant.*;
+
+import java.io.Serializable;
+
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+
+import org.hibernate.validator.constraints.Length;
+
+import lombok.Data;
+
+/**
+ * 商品ドメイン
+ */
+<span class="pc bnc" id="L18" title="All 30 branches missed.">@Data</span>
+public class Goods implements Serializable {
+
+	/** 商品コード */
+	@NotNull
+	@Min(MIN_GOODS_CODE)
+	@Max(MAX_GOODS_CODE)
+<span class="fc" id="L25">	private Integer code;</span>
+
+	/** 商品名 */
+	@Length(min = MIN_STRING, max = MAX_STRING)
+<span class="fc" id="L29">	private String name;</span>
+
+	/** 価格 */
+	@NotNull
+	@Min(MIN_PRICE)
+	@Max(MAX_PRICE)
+<span class="fc" id="L35">	private Integer price;</span>
+
+	/** デフォルトコンストラクタ */
+<span class="fc" id="L38">	public Goods() {</span>
+<span class="fc" id="L39">	}</span>
+
+	/** コンストラクタ
+	 * @param code 商品コード
+	 * @param name 商品名
+	 * @param price 価格
+	*/
+<span class="fc" id="L46">	public Goods(Integer code, String name, Integer price) {</span>
+<span class="fc" id="L47">		this.code = code;</span>
+<span class="fc" id="L48">		this.name = name;</span>
+<span class="fc" id="L49">		this.price = price;</span>
+<span class="fc" id="L50">	}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.7.9.201702052155</span></div></body></html>
