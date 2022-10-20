@@ -26,10 +26,10 @@ import com.github.springtestdbunit.assertion.DatabaseAssertionMode;
 @SpringBootTest
 @Transactional
 @TestExecutionListeners({
-	DependencyInjectionTestExecutionListener.class,
-	DirtiesContextTestExecutionListener.class,
-	TransactionalTestExecutionListener.class,
-	DbUnitTestExecutionListener.class})
+		DependencyInjectionTestExecutionListener.class,
+		DirtiesContextTestExecutionListener.class,
+		TransactionalTestExecutionListener.class,
+		DbUnitTestExecutionListener.class })
 public class GoodsRepositoryTest {
 
 	@Autowired
@@ -37,10 +37,9 @@ public class GoodsRepositoryTest {
 
 	@Test
 	@DatabaseSetup("../INPUT_GOODS_DATA.xml")
-	@ExpectedDatabase(value="../EXPECTED_CREATE_GOODS_DATA.xml",
-		assertionMode=DatabaseAssertionMode.NON_STRICT)
+	@ExpectedDatabase(value = "../EXPECTED_CREATE_GOODS_DATA.xml", assertionMode = DatabaseAssertionMode.NON_STRICT)
 	public void testCreateGoods_正常系() throws Exception {
-		Goods goods = new Goods(99, "バナナ", 210);
+		Goods goods = new Goods(99, "こてつ", 210);
 		goodsRepository.createGoods(goods);
 	}
 
@@ -107,7 +106,7 @@ public class GoodsRepositoryTest {
 	@DatabaseSetup("../INPUT_GOODS_EMPTY_DATA.xml")
 	public void testFindAllGoods_異常系_1件もない() throws Exception {
 		List<Goods> goodsList = goodsRepository.findAllGoods();
-		if(goodsList.isEmpty()) {
+		if (goodsList.isEmpty()) {
 			assertTrue(true);
 			return;
 		}
@@ -131,7 +130,7 @@ public class GoodsRepositoryTest {
 	@DatabaseSetup("../INPUT_GOODS_DATA.xml")
 	public void testFindGoods_異常系_存在しない商品コード() throws Exception {
 		Goods goods = goodsRepository.findGoods(777);
-		if(goods == null) {
+		if (goods == null) {
 			assertTrue(true);
 			return;
 		}
@@ -142,7 +141,7 @@ public class GoodsRepositoryTest {
 	@DatabaseSetup("../INPUT_GOODS_DATA.xml")
 	public void testFindGoods_異常系_削除済みの商品コード() throws Exception {
 		Goods goods = goodsRepository.findGoods(3);
-		if(goods == null) {
+		if (goods == null) {
 			assertTrue(true);
 			return;
 		}
@@ -151,8 +150,7 @@ public class GoodsRepositoryTest {
 
 	@Test
 	@DatabaseSetup("../INPUT_GOODS_DATA.xml")
-	@ExpectedDatabase(value="../EXPECTED_DELETE_GOODS_DATA.xml",
-		assertionMode=DatabaseAssertionMode.NON_STRICT)
+	@ExpectedDatabase(value = "../EXPECTED_DELETE_GOODS_DATA.xml", assertionMode = DatabaseAssertionMode.NON_STRICT)
 	public void testDeleteGoods_正常系() throws Exception {
 		goodsRepository.deleteGoods(1);
 	}
@@ -161,7 +159,7 @@ public class GoodsRepositoryTest {
 	@DatabaseSetup("../INPUT_GOODS_DATA.xml")
 	public void testDeleteGoods_異常系_存在しない商品コード() throws Exception {
 		int deleteCount = goodsRepository.deleteGoods(1001);
-		if(deleteCount == 0) {
+		if (deleteCount == 0) {
 			assertTrue(true);
 			return;
 		}
@@ -172,7 +170,7 @@ public class GoodsRepositoryTest {
 	@DatabaseSetup("../INPUT_GOODS_DATA.xml")
 	public void testDeleteGoods_異常系_削除済みの商品コード() throws Exception {
 		int deleteCount = goodsRepository.deleteGoods(3);
-		if(deleteCount == 0) {
+		if (deleteCount == 0) {
 			assertTrue(true);
 			return;
 		}

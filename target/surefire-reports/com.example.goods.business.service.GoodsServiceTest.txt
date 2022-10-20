@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.goods.business.service.GoodsServiceTest
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.78 s - in com.example.goods.business.service.GoodsServiceTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 s - in com.example.goods.business.service.GoodsServiceTest
