@@ -39,7 +39,7 @@ public class GoodsRepositoryTest {
 	@DatabaseSetup("../INPUT_GOODS_DATA.xml")
 	@ExpectedDatabase(value = "../EXPECTED_CREATE_GOODS_DATA.xml", assertionMode = DatabaseAssertionMode.NON_STRICT)
 	public void testCreateGoods_正常系() throws Exception {
-		Goods goods = new Goods(99, "こてつ", 210);
+		Goods goods = new Goods(99, "バナナ", 210);
 		goodsRepository.createGoods(goods);
 	}
 
